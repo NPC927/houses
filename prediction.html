@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>北京市二手房房价预测</title>
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.4.min.js" charset="utf-8"></script>
+    <script src="https://cdn.staticfile.org/echarts/4.8.0/echarts.min.js" charset="utf-8"></script>
+    <script src="./js/time.js" charset="utf-8"></script>
+    <script src="./js/roma.js" charset="utf-8"></script>
+    <script src="./js/prediction.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/showForecastData.css">
+</head>
+
+<body>
+    <div class="head clearfix">
+        <h1 class="pulll_left">北京市二手房房价预测</h1>
+        <div class="menu menu2 pulll_left">
+            <ul>
+                <li><a href="./index.html">可视化大屏</a></li>
+                <li><a href="./prediction.html">数据预测</a></li>
+            </ul>
+        </div>
+        <div class="time" id="showTime"></div>
+    </div>
+
+    <div class="mainbox">
+        <ul class="clearfix nav1">
+            <li style="width: 45%">
+                <div class="box">
+                    <div class="tit">房价预测表</div>
+                    <div id="echart1" style="height: 815px;">
+                        <div class="right_info public">
+                            <div class="echart wenzi">
+                                <div class="gun">
+                                    <span style="width: 130px;">房主编码</span>
+                                    <span style="width: 110px;">所在区域</span>
+                                    <span style="width: 220px;">小区名称</span>
+                                    <span style="width: 130px;">房屋户型</span>
+                                    <span style="width: 100px;">装修情况</span>
+                                    <span style="width: 105px;">建筑面积(㎡)</span>
+                                    <span style="width: 100px;">预测房价(W)</span>
+                                </div>
+                                <div id="FontScroll" class="myscroll">
+                                    <ul id="ul-list">
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </li>
+            <li style="width: 55%">
+                <div class="box">
+                    <div class="boxnav mapc" style="height: 856px; position: relative">
+                        <div class="map" id="map"></div>
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div class="foot">来源：广东水利电力职业技术学院大数据技术专业毕业设计28组★21大数据技术3班★张奕鸿★宋伟华★郑子锴★</div>
+</body>
+
+<script>
+    $(function () {
+        $('.myscroll').myScroll({
+            speed: 8,
+            rowHeight: 38
+        });
+    })
+</script>
+
+</html>

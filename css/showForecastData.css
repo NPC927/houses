@@ -1,0 +1,60 @@
+.right_top .right_info {
+	width: 100%;
+	height: 65%;
+	border: 1px solid #20558b;
+	position: relative;
+}
+
+.gun {
+	display: flex;
+	justify-content: center;
+	background-color: #f6225c;
+	height: 30px;
+	line-height: 30px;
+}
+
+.gun span {
+	display: block;
+	float: left;
+	height: 20px;
+	width: 14%;
+	text-align: right;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	flex: 1;
+}
+
+#FontScroll {
+	width: 100%;
+	height: 750px;
+	overflow: hidden;
+	margin-top: 10px;
+}
+
+#FontScroll ul li {
+	height: 38px;
+	width: 100%;
+	color: #ffffff;
+	text-align: center;
+	line-height: 38px;
+	border-bottom: 1px dashed #404040;
+	overflow: hidden;
+}
+
+#FontScroll ul li:hover {
+	cursor: pointer;
+}
+
+.fontInner {
+	display: flex;
+	justify-content: space-between;
+}
+
+.fontInner span {
+	display: inline-block;
+	text-align: center;
+	width: 13%;
+	flex: 1;
+	text-align: center;
+}

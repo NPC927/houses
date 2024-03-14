@@ -1,0 +1,153 @@
+{
+    "decorationStats": {
+        "decoration_situation": [
+            "简装",
+            "毛坯",
+            "精装",
+            "其他"
+        ],
+        "total_attention_people": [
+            168,
+            0,
+            248,
+            436
+        ],
+        "avg_price_per_square": [
+            22405,
+            51332,
+            26002,
+            19591
+        ]
+    },
+    "topTenHouseTypes": {
+        "house_type": [
+            "3室1厅1厨1卫",
+            "2室1厅1厨1卫",
+            "3室2厅1厨1卫",
+            "2室2厅1厨1卫",
+            "1室0厅1厨1卫",
+            "6室2厅1厨4卫",
+            "3室1厅1厨2卫",
+            "4室2厅1厨2卫",
+            "4室2厅1厨3卫",
+            "1室1厅1厨1卫"
+        ],
+        "total_attention_people": [
+            254,
+            172,
+            142,
+            85,
+            47,
+            38,
+            23,
+            19,
+            15,
+            10
+        ]
+    },
+    "topTenCommunities": {
+        "community_name": [
+            "悦泽苑",
+            "清凉盛景",
+            "樾熙府",
+            "八达岭山庄",
+            "上都首府家园",
+            "川北小区",
+            "城建万科城",
+            "新兴小区",
+            "温泉西里",
+            "温泉南区东里"
+        ],
+        "avg_price_per_square": [
+            46770,
+            36966,
+            34549,
+            30795,
+            23277,
+            23173,
+            21691,
+            21668,
+            20096,
+            19401
+        ]
+    },
+    "topTenElevatorType": {
+        "ladder_proportion": [
+            "一梯两户",
+            "一梯一户",
+            "两梯两户",
+            "两梯一户",
+            "一梯四户",
+            "一梯五户",
+            "一梯三户",
+            "三梯两户",
+            "两梯三户"
+        ],
+        "total_attention_people": [
+            429,
+            228,
+            108,
+            23,
+            20,
+            16,
+            15,
+            11,
+            2
+        ],
+        "avg_price_per_square": [
+            21257,
+            23418,
+            21516,
+            23028,
+            12744,
+            15580,
+            24388,
+            11459,
+            22003
+        ]
+    },
+    "heatingStats": {
+        "heating_method": [
+            "自供暖",
+            "集中供暖"
+        ],
+        "total_attention_people": [
+            22,
+            770
+        ],
+        "avg_price_per_square": [
+            35934,
+            20415
+        ]
+    },
+    "elevatorStats": {
+        "equipped_with_elevator": [
+            "有",
+            "无"
+        ],
+        "total_attention_people": [
+            329,
+            348
+        ],
+        "avg_price_per_square": [
+            21676,
+            20206
+        ]
+    },
+    "floorTypeStats": {
+        "floor_type": [
+            "底层",
+            "中楼层",
+            "低楼层",
+            "高楼层",
+            "顶层"
+        ],
+        "count": [
+            33,
+            32,
+            18,
+            13,
+            11
+        ]
+    }
+}

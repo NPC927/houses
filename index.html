@@ -1,0 +1,74 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>北京市二手房数据可视化大屏</title>
+	<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.4.min.js" charset="utf-8"></script>
+	<script src="https://cdn.staticfile.org/echarts/4.8.0/echarts.min.js" charset="utf-8"></script>
+	<script src="./js/time.js" charset="utf-8"></script>
+	<script src="./js/roma.js" charset="utf-8"></script>
+	<script src="./js/BeiJIngMap.js" charset="utf-8"></script>
+	<script src="./js/BeiJing.js" charset="utf-8"></script>
+	<link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+	<div class="head clearfix">
+		<h1 class="pulll_left">北京市二手房数据可视化大屏</h1>
+		<div class="menu menu2 pulll_left">
+			<ul>
+				<li><a href="./index.html">可视化大屏</a></li>
+				<li><a href="./prediction.html">数据预测</a></li>
+			</ul>
+		</div>
+		<div class="time" id="showTime"></div>
+	</div>
+	<div class="mainbox">
+		<ul class="clearfix nav1">
+			<li style="width: 24%">
+				<div class="box">
+					<div class="tit">楼层类型占比情况</div>
+					<div class="boxnav">
+						<div id="echart1" style="height: 330px;"></div>
+					</div>
+				</div>
+				<div class="box">
+					<div class="tit">小区关注度TOP10</div>
+					<div class="boxnav">
+						<div style="height: 387px" id="echart2"></div>
+					</div>
+				</div>
+			</li>
+			<li style="width: 53%">
+				<div class="box">
+					<div class="boxnav" style="height: 500px; position: relative">
+						<div class="map" id="map"></div>
+					</div>
+				</div>
+				<div class="box">
+					<div class="tit">各地区有无电梯数量、价格对比</div>
+					<div class="boxnav" style="height: 300px;" id="echart3"></div>
+				</div>
+			</li>
+			<li style="width: 23%">
+				<div class="box">
+					<div class="tit">各地区房源数量的分析</div>
+					<div class="boxnav" id="echart4" style="height: 200px;"></div>
+				</div>
+				<div class="box">
+					<div class="tit">各年限修建屋子数量折线图</div>
+					<div class="boxnav" style="height: 250px;" id="echart5"></div>
+				</div>
+				<div class="box">
+					<div class="tit">装修类型占比情况</div>
+					<div class="boxnav" style="height: 250px;" id="echart6"></div>
+				</div>
+			</li>
+		</ul>
+	</div>
+	<div class="foot">来源：广东水利电力职业技术学院大数据技术专业毕业设计28组★21大数据技术3班★张奕鸿★宋伟华★郑子锴★</div>
+</body>
+
+</html>
